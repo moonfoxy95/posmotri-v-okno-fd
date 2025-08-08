@@ -9,6 +9,9 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -62,12 +65,6 @@ ol {
 
 /* СВОИ СТИЛИ */
 
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .content {
   display: flex;
   align-items: flex-end;
@@ -82,7 +79,6 @@ ol {
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
-  object-fit: cover;
 }
 
 .result__video {
@@ -175,9 +171,9 @@ ol {
   padding-top: 6px;
   padding-bottom: 6px;
   color: white;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  font-style: normal;
   background-color: transparent;
 }
 
@@ -196,12 +192,12 @@ ol {
 }
 
 .button:active {
-  background-color: rgb(84 80 80);
+  background-color: rgba(84 80 80 / 1);
 }
 
 .search-form__submit-button {
   align-self: flex-end;
-  width: 194px;
+  min-width: 194px;
 }
 
 .more-button {
@@ -220,7 +216,7 @@ ol {
 }
 
 .content__accent {
-  color: rgb(84 80 80);
+  color: rgba(84 80 80 / 1);
 }
 
 .content__list-container {
@@ -264,7 +260,7 @@ ol {
 
 .content__card-link:active,
 .content__card-link_current {
-  background-color: rgb(84 80 80);
+  background-color: rgba(84 80 80 / 1);
 }
 
 .content__video-card {
